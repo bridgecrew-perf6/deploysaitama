@@ -14,12 +14,12 @@ class Config(object):
     # REQUIRED
     # Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = 123456  # integer value, dont use ""
-    API_HASH = "awoo"
-    TOKEN = "BOT_TOKEN"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    OWNER_ID = 792109647  # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "Sawada"
-    SUPPORT_CHAT = "OnePunchSupport"  # Your own group for support, do not add the @
+    API_ID = 18622297  # integer value, dont use ""
+    API_HASH = "27e6993af0786f66f96599db6cd10bcc"
+    TOKEN = "5049093918:AAFLg6Z5YBhDVFA6gro0bkTQYmQLdOm-e_4"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    OWNER_ID = 1511373882 # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_USERNAME = "ItS_PRaNAv_Xd"
+    SUPPORT_CHAT = "mysuppory"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
         -1001253661229
     )  # Prints any new group the bot is added to, prints just the name and ID.
@@ -28,7 +28,7 @@ class Config(object):
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = "something://somewhat:user@hosturl:port/databasename"  # needed for any database modules # its "URI" and not "URL" as herok and similar ones only accept it as such
+    SQLALCHEMY_DATABASE_URI = "postgresql://postgres:AI4yXvnnjKAhuGdVIHwE@containers-us-west-22.railway.app:7098/railway"  # needed for any database modules # its "URI" and not "URL" as herok and similar ones only accept it as such
     LOAD = []
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
     WEBHOOK = False
