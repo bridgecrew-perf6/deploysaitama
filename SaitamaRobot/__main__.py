@@ -73,7 +73,7 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
 Hey hi {}, I'm {}!
 I am an Dragon Inu group management bot.
-Built by @Its_Pranav_xD, I specialize in managing anime eccentric communities!
+Built by Dragon Inu Team, I specialize in managing anime eccentric communities!
 """
 
 HELP_STRINGS = """
@@ -224,27 +224,27 @@ def start(update: Update, context: CallbackContext):
                         [
                             InlineKeyboardButton(
                                 text="🚑 Support",
-                                url=f"https://t.me/{SUPPORT_CHAT}",
+                                url=f"https://t.me/{dragoninuofficialgroup}",
                             ),
                             InlineKeyboardButton(
                                 text="🔔 Updates",
-                                url="https://t.me/OnePunchUpdates",
+                                url="https://t.me/dragoninuofficialchannel",
                             ),
                         ],
                         [
                             InlineKeyboardButton(
-                                text="🧾 Getting Started",
-                                url="https://t.me/OnePunchUpdates/29",
+                                text="Code Credit",
+                                url="https://t.me/Its_Pranav_Xd",
                             ),
                             InlineKeyboardButton(
-                                text="🗄 Source code",
-                                url="https://github.com/AnimeKaizoku/SaitamaRobot",
+                                text="Hosted On",
+                                url="https://heroku.com",
                             ),
                         ],
                         [
                             InlineKeyboardButton(
-                                text="☠️ Kaizoku Network",
-                                url="https://t.me/Kaizoku/4",
+                                text="Coded on",
+                                url="https://github.com",
                             ),
                         ],
                     ],
