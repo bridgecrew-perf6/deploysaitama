@@ -72,13 +72,13 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 Hey hi {}, I'm {}!
-I am an Anime themed group management bot.
-Built by weebs for weebs, I specialize in managing anime eccentric communities!
+I am an Dragon Inu group management bot.
+Built by @Its_Pranav_xD, I specialize in managing anime eccentric communities!
 """
 
 HELP_STRINGS = """
 Hey there! My name is *{}*.
-I'm a Hero For Fun and help admins manage their groups with One Punch! Have a look at the following for an idea of some of \
+I'm a here to  help admins manage their groups with One Punch! Have a look at the following for an idea of some of \
 the things I can help you with.
 
 *Main* commands available:
@@ -97,12 +97,8 @@ And the following:
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
 )
 
-SAITAMA_IMG = "https://telegra.ph/file/46e6d9dfcb3eb9eae95d9.jpg"
+SAITAMA_IMG = "https://telegra.ph/file/f2c8f2c37e086c1d116bf.jpg"
 
-DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project via [Paypal](ko-fi.com/sawada) or by contacting @Sawada \
- Supporting isnt always financial! \
- Those who cannot provide monetary support are welcome to help us develop the bot at @OnePunchDev."""
 
 IMPORTED = {}
 MIGRATEABLE = []
