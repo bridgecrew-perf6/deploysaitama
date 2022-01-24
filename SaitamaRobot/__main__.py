@@ -224,7 +224,7 @@ def start(update: Update, context: CallbackContext):
                         [
                             InlineKeyboardButton(
                                 text="🚑 Support",
-                                url=f"https://t.me/{dragoninuofficialgroup}",
+                                url=f"https://t.me/dragoninuofficialgroup",
                             ),
                             InlineKeyboardButton(
                                 text="🔔 Updates",
