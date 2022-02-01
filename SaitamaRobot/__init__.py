@@ -66,7 +66,7 @@ if ENV:
     PORT = int(os.environ.get("PORT", 5000))
     CERT_PATH = os.environ.get("CERT_PATH")
     API_ID = os.environ.get("API_ID", 18564918)
-    API_HASH = os.environ.get("API_HASH", fd99995bc013e54c3649fb563d1d18b9)
+    API_HASH = os.environ.get("API_HASH", "fd99995bc013e54c3649fb563d1d18b9")
     DB_URI = os.environ.get("DATABASE_URL")
     DONATION_LINK = os.environ.get("DONATION_LINK")
     LOAD = os.environ.get("LOAD", "").split()
