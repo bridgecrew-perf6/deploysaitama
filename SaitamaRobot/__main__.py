@@ -72,14 +72,13 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 Hey hi {}, I'm {}!
-I am an Dragon Inu group management bot.
-Built by Dragon Inu Team, I specialize in managing anime eccentric communities!
+I am a RoBot.
+Move to other bots, 
 """
 
 HELP_STRINGS = """
 Hey there! My name is *{}*.
-I'm a here to  help admins manage their groups with One Punch! Have a look at the following for an idea of some of \
-the things I can help you with.
+
 
 *Main* commands available:
  • /help: PM's you this message.
@@ -97,7 +96,7 @@ And the following:
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
 )
 
-SAITAMA_IMG = "https://telegra.ph/file/f2c8f2c37e086c1d116bf.jpg"
+SAITAMA_IMG = "https://telegra.ph/file/6bd8761ac2a16c7477900.jpg"
 
 
 IMPORTED = {}
